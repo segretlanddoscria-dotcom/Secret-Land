@@ -33,4 +33,12 @@ Entre em https://www.pwabuilder.com, cole o link do seu GitHub Pages e escolha *
 
 ### Atualizações
 Ao mudar o jogo, aumente o número em `const V='secret-land-v1'` no `sw.js` (ex.: `v2`) para que os celulares baixem a versão nova.
-Jogo online
+
+## Novidades (Etapas 1 e 2)
+- **Classes:** só Guerreiro, Clérigo, Lanceiro, Mago e Paladino no início; as demais são desbloqueadas na aventura (Status → Classes). Magias exclusivas por classe.
+- **Reputação e títulos** (Status), com efeito nos diálogos, preços e pequenas vantagens.
+- **Construção de base (menu → 🏗️ Construir):** casa, muro, fazenda, torre, ferreiro, mercado, quartel, igreja e castelo. Escolha a estrutura, toque no mapa (verde = válido) e confirme com ✔.
+- **Vila (🏘️ Vila):** com 4 casas chegam viajantes pedindo para morar. Eles têm profissão (ferreiro, agricultor, comerciante, guarda, cozinheiro, padre), rotina (trabalham de dia, dormem em casa à noite), pagam impostos por dia e guardas e torres defendem a vila.
+- **Estágios:** Acampamento → Pequena vila → Vila desenvolvida → Cidade → Grande reino. Na Vila desenvolvida dá para fundar o seu reino (200🪙).
+- Camas permitem dormir à noite; altar da igreja dá bênção.
+- Modo horizontal, toque para atacar e toque duplo para dash.
