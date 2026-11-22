@@ -42,3 +42,11 @@ Ao mudar o jogo, aumente o número em `const V='secret-land-v1'` no `sw.js` (ex.
 - **Estágios:** Acampamento → Pequena vila → Vila desenvolvida → Cidade → Grande reino. Na Vila desenvolvida dá para fundar o seu reino (200🪙).
 - Camas permitem dormir à noite; altar da igreja dá bênção.
 - Modo horizontal, toque para atacar e toque duplo para dash.
+
+## Inventário e itens (atualização)
+- Inventário compacto (grade 8 colunas + hotbar): **segure e arraste** um item para outro slot (como no Minecraft); se o destino tiver item, eles trocam de lugar. Funciona também entre inventário e hotbar.
+- Novas armas craftáveis em 5 níveis (Madeira → Adamantita): arco, lança, martelo, adaga e cajado, cada um com alcance/dano/velocidade próprios. Segure na hotbar para usar.
+- Ferramentas: enxada (cria plantações), vara de pesca (peixes comuns e raros), bússola, calendário, cama e fogueira.
+- Poções: vida maior, regeneração, resistência, fogo, XP e invisibilidade; encantos de arma (fogo, gelo, raio, veneno, vida); comidas (ensopado, torta, peixe assado); livros antigos com lendas.
+- A aba Fabricar agora tem categorias.
+- **Dar itens a amigos (online):** no inventário, toque no item → *Dar a um amigo* → 1 ou Tudo. O item sai da sua mochila e chega na do amigo.
