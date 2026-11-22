@@ -33,3 +33,4 @@ Entre em https://www.pwabuilder.com, cole o link do seu GitHub Pages e escolha *
 
 ### Atualizações
 Ao mudar o jogo, aumente o número em `const V='secret-land-v1'` no `sw.js` (ex.: `v2`) para que os celulares baixem a versão nova.
+Jogo online
