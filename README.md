@@ -127,3 +127,16 @@ Classes iniciais/secretas, reputação, títulos, construção de base, vila e e
 ## Menu bonito e porta que abre/fecha
 - **Título do menu redesenhado:** cristal em pixel art, letras SECRET (roxo) e LAND (dourado) com brilho que passa, divisor com losango, faixa com o subtítulo, estrelinhas piscando, brilho de fundo e brasas subindo. (Respeita o modo "reduzir movimento" do aparelho.) O nome oficial continua **Secret Land**.
 - **Porta manual:** toque na porta (sem picareta/machado na mão) para **abrir** (fica aberta) e toque de novo para **fechar 🔒** (fica trancada: não abre sozinha, protege a casa). Segure picareta ou machado para quebrar a porta (cai 2 tábuas). Sem toque, ela continua abrindo sozinha quando você chega perto, se não tiver sido fechada manualmente. `sw.js` → `v21`.
+
+## v22 — Atualização de bugs
+- Menu: não corta mais (título e botões cabem em telas baixas; rola se preciso). Título refeito em pixel art.
+- Painéis: botões ▲ ▼ e ⏬ (ir ao final) para rolar, com repetição ao segurar.
+- Online: o host compartilha dia/noite, clima, eventos, monstros e animais; guests atacam e recebem dano/drops pelo host.
+- Eventos bem mais raros (mín. 6 dias entre eventos). Lua de Sangue avermelha a tela; meteoros caem em chamas e deixam crateras/chão queimado (toque para limpar).
+- Minérios: cores novas, visual pixel art e 6 novos (Estanho, Prata, Ametista, Safira, Topázio, Obsidiana); afloramentos nas montanhas.
+- Cama define o ponto de renascimento.
+- Hitbox: só o tronco de árvores/pedras/cactos bloqueia; tocar na copa seleciona a árvore.
+- Tochas podem ser fixadas em paredes de casa (segure a tocha e toque na parede); piso da casa quebra com o Machado.
+- Habilidades: todas bloqueadas no início. Nv 10 (rank D) libera a 1ª da classe; Nv 25 (C) a 1ª da raça; Nv 45 (B) a 2ª da classe; Nv 65 (A) a 2ª da raça; Nv 85 (S) a 3ª da raça. Dano, cura, buffs e invocações rebalanceados (custam mana/stamina).
+- Efeitos de habilidades e eventos desenhados em baixa resolução (pixel art).
+- sw.js: cache v22.
